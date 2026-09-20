@@ -1,0 +1,43 @@
+{
+  "schema": "jy14-headless-plan/v1",
+  "name": "smoke-minimal-20260918",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "tracks": [
+    {
+      "type": "video",
+      "name": "main",
+      "segments": [
+        {
+          "source": "/Users/caopan/jianying-headless/work/smoke-media/clip.mp4",
+          "start_us": 0,
+          "duration_us": 2000000,
+          "source_start_us": 0,
+          "source_duration_us": 2000000,
+          "speed": 1.0,
+          "volume": 1.0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "subs",
+      "segments": [
+        {
+          "text": "headless smoke",
+          "start_us": 0,
+          "duration_us": 2000000,
+          "size": 6,
+          "x": 0,
+          "y": -0.78,
+          "color": "#FFFFFF",
+          "border_color": "#000000",
+          "border_width": 0.05
+        }
+      ]
+    }
+  ]
+}

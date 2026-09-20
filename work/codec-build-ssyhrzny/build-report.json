@@ -1,0 +1,26 @@
+{
+  "schema": "jianying-headless-codec-build/v1",
+  "status": "built",
+  "app_version": "11.4.2",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.5.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "command": [
+    "/usr/bin/xcrun",
+    "clang++",
+    "-std=c++17",
+    "-arch",
+    "arm64",
+    "-O2",
+    "/Users/caopan/jianying-headless/bridge/jy14_codec.cpp",
+    "-L/Applications/VideoFusion-macOS.app/Contents/Frameworks",
+    "-lvideoeditor",
+    "-Wl,-rpath,/Applications/VideoFusion-macOS.app/Contents/Frameworks",
+    "-o",
+    "/Users/caopan/jianying-headless/work/codec-build-ssyhrzny/jy14_codec_hardened_11_4"
+  ],
+  "codec_sha256": "b6533eb5eb1eea58dfa74fb1d16d3bb580970fe881f587605d358af1745f971d",
+  "expected_codec_sha256": "b6533eb5eb1eea58dfa74fb1d16d3bb580970fe881f587605d358af1745f971d",
+  "stderr": "",
+  "network_called": false,
+  "official_library_copied": false,
+  "app_modified": false
+}
